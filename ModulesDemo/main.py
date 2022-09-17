@@ -17,3 +17,4 @@ net_tax = pricing.get_tax(
 )
 
 print(net_tax)
+print(net_price)

@@ -4,3 +4,6 @@ def get_net_price(price, tax_rate, discount=0):
 
 def get_tax(price, tax_rate=0):
     return price * tax_rate
+
+
+
