@@ -30,9 +30,11 @@ class TestAdd(unittest.TestCase):
         result = mymath.multiply(10, 5)
         self.assertEqual(result, 50)
 
+
     def test_divide_integer(self):
         result = mymath.divide(10, 5)
         self.assertEqual(result, 2)
+
 
 
 if __name__ == '__main__':
